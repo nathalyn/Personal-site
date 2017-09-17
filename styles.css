@@ -1,0 +1,88 @@
+
+
+/*================BASE LAYER STYLES=====================*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 3.0em;
+  color: #1d1d1d;
+  background-color: #f2f2f2;
+
+
+}
+
+header {
+
+  margin: auto;
+  text-align: center;
+  display: block;
+  padding-top: 2em;
+
+}
+
+.nav {
+  display: block;
+  background: white;
+
+
+}
+ul {
+  display: block;
+  padding: 0em;
+
+}
+ul li {
+  background: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2.6em;
+  display: block;
+  margin: 1em;
+  padding: .4em;
+
+
+}
+
+.content {
+  background: #999;
+
+}
+.main-content {
+  margin: 8em;
+
+
+}
+
+p {
+  font-size: 2.4em;
+  margin-bottom: 1.8em;
+}
+
+h1 {
+  font-size: 3em;
+  display: inline-block;
+  text-align: center;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.4em;
+  display: inline-block;
+  line-height: 1.6em;
+  text-align: left;
+  margin-bottom: 3em;
+}
+
+
+
+
+.clearfix:after{
+        content:".";
+        display:block;
+        height:0;
+        clear:both;}
