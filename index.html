@@ -6,19 +6,35 @@
   <!-- <link rel="shortcut icon" href="favicon.icon"> -->
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+<!--
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="scroll.js"></script>
+  <script>
+  $('.smooth').on('click', function() {
+      $.smoothScroll({
+          scrollElement: $('body'),
+          scrollTarget: '#' + this.id
+      });
+
+      return false;
+  });
+  </script>
+ -->
   </head>
   <body>
-    <header>
-      <h1>Nathalyn Nunoo</h1>
+      <a name="top"><header>
+    <h1>Nathalyn Nunoo</h1>
       <nav>
         <ul>
-          <li>HOME</li>
-          <li>PORTFOLIO</li>
-          <li>CONTACT</li>
+          <a href="#"><li>HOME</li></a>
+          <a href="#portfolio-page"><li>PORTFOLIO</li></a>
+          <a href="#contact-page"><li>CONTACT</li></a>
         </ul>
       </nav>
     </header>
+  </a>
 
 
     <div class="main-content">
@@ -30,7 +46,9 @@
         <img src="#" alt="This is a picture of Nathalyn">
       </div>
 
-      <div class="portfolio">
+      <a name="portfolio-page"><div class="portfolio">
+
+        <p class="page-title">PORTFOLIO</p>
 
         <div class="snapshot">
           <img src="#" alt="Snapshot of project 1">
@@ -68,21 +86,23 @@
           <p>Someone can enter in the numbers they want and press the big blue button and get the result.</p>
         </div>
       </div>
-
+    </a>
+    <a name="contact-page" ><p class="page-title">CONTACT</p></a>
       <div class="contact">
         <p>If you'd like to chat sometime or would like to know what I'm working on, send me a message!</p>
-        <p>Phone Number</p>
-        <p>Email Address</p>
+        <p>Phone<span class="contactdeets">1 (234) 567 8901</span></p>
+        <p>Email<span class="contactdeets">myemail@email.com</span></p>
       </div>
     </div>
 
     <footer>
-      <p>Nathalyn Nunoo</p>
-      <ul>
+      <p id="name-footer">Nathalyn Nunoo</p>
+      <a href="#top"><p id="menu-footer">Back to Top</p><a/>
+      <!-- <ul>
         <li>HOME</li>
         <li>PORTFOLIO</li>
         <li>CONTACT</li>
-      </ul>
+      </ul> -->
     </footer>
 
   </body>
