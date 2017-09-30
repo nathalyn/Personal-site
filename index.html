@@ -6,7 +6,25 @@
   <!-- <link rel="shortcut icon" href="favicon.icon"> -->
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
+<<<<<<< HEAD
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+=======
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+  <script>
+  $('.smooth').on('click', function() {
+      $.smoothScroll({
+          scrollElement: $('body'),
+          scrollTarget: '#' + this.id
+      });
+
+      return false;
+  });
+  </script>
+
+>>>>>>> parent of 7e94735... deleted the jquery blurb i was trying out
   </head>
   <body>
     <header>
