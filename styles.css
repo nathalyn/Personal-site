@@ -4,23 +4,23 @@
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 3.0em;
   color: #1d1d1d;
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
 
 
 }
 
 header {
-
   margin: auto;
   text-align: center;
   display: block;
-  padding-top: 2em;
+
 
 }
 
@@ -33,16 +33,18 @@ header {
 ul {
   display: block;
   padding: 0em;
+  margin: 1em;
 
 }
 ul li {
   background: #fff;
   text-decoration: none;
   text-align: center;
-  font-size: 2em;
+  font-weight: 700;
+  font-size: 3em;
   line-height: 2.6em;
   display: block;
-  margin: 1em;
+  margin: .6em;
   padding: .4em;
 
 
@@ -52,36 +54,219 @@ ul li {
   background: #999;
 
 }
+
+
 .main-content {
-  margin: 8em;
+  background-color: #f9f9f9;
+}
+
+.landing {
+  padding: 6em;
+}
 
 
+.portfolio {
+  background-color: white;
+  padding-top: 3em;
+
+
+}
+
+.snapshot {
+  padding: 6em;
 }
 
 p {
-  font-size: 2.4em;
+  font-size: 3em;
+  font-weight: 100;
   margin-bottom: 1.8em;
+  line-height: 1.6;
+}
+
+.page-title {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  padding-top: 2em;
+
+
 }
 
 h1 {
-  font-size: 3em;
+  margin: 1em;
+  font-size: 5em;
   display: inline-block;
   text-align: center;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 2.4em;
+  font-size: 4em;
+  font-weight: 400;
   display: inline-block;
   line-height: 1.6em;
   text-align: left;
-  margin-bottom: 3em;
+  margin-bottom: 0em;
+}
+
+h3 {
+  font-size: 3em;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+
+
+}
+
+img {
+  display: block;
+}
+
+.snapshot{
+  text-align: center;
+
+}
+
+
+.contact {
+
+  line-height: 3.6em;
+  padding: 3em;
+  margin: auto;
+  display: block;
+}
+
+.contactdeets {
+  font-weight: 400;
+  margin: 0 1.4em;
+}
+
+footer {
+  margin: 6em;
+  text-align: left;
+}
+
+#name-footer {
+  display: inline;
+  float: left;
+}
+
+#menu-footer {
+  display: inline;
+  float: right;
+}
+
+a {
+  color: inherit;
+}
+
+/************************MEDIA QUERIES**************************/
+
+@media (min-width: 768px) {
+
+  body {
+
+    }
+
+
+    .nav {
+      display: inline-block;
+    }
+
+
+    ul {
+      display: inline-block;
+      padding: 0em;
+      margin: 1em;
+    }
+
+
+    ul li {
+
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 2em;
+      line-height: 2.6em;
+      display: inline-block;
+      margin: 1em;
+      background-color: transparent;
+
+
+}
+
+h1 {
+  margin: 1em;
+  margin-bottom: 0.5em;
+  font-size: 5em;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 1.6em;
+  text-align: left;
+  margin-bottom: 0em;
+}
+
+h3 {
+  font-size: 3em;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+
+
+}
+
+.bio-copy {
+  display: inline-block;
+  float: left;
+  max-width: 400px;
+  margin: 2em;
+
+}
+
+.profile-pic {
+  display: inline-block;
+  max-width: 400px;
+  float: right;
+  margin: 2em;
+
+}
+
+.landing {
+  display: block;
+  padding: 2em;
 }
 
 
 
+img {
+  display: block;
+}
 
-.clearfix:after{
+.snapshot{
+  text-align: center;
+
+}
+
+
+p {
+  font-size: 1.8em;
+  font-weight: 100;
+  margin-bottom: 1.8em;
+  line-height: 1.6;
+}
+
+
+}
+
+clearfix:after{
         content:".";
         display:block;
         height:0;
